@@ -15,7 +15,7 @@ else:
 app = Flask(__name__)
 DB = DBHelper()
 
-categories = ['mugging', 'break-in','felony']
+categories = ['mugging', 'break-in','felony','misbehavior']
 
 
 def sanitize_string(userinput):
